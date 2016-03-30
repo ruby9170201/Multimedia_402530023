@@ -19,8 +19,8 @@ class Calculator(Frame):
     def __init__(self):
         Frame.__init__(self)
         self.pack(expand=YES, fill=BOTH)
-        self.master.title('Simple Calculator')
-        self.master.iconname("calc1")
+        self.master.title('Calculator')
+        
  
         display = StringVar()
         Entry(self, relief=SUNKEN, textvariable=display).pack(side=TOP, expand=YES, fill=BOTH)
